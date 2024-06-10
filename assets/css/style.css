@@ -1,3 +1,6 @@
+/*google-fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,23 +11,28 @@ body {
     display:flex;
     width: 100%;
     flex-direction: column;
-}
-
-#flamingo-logo {
-    position:absolute;
-    width: 25px;
-    height: 25px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 header {
-    background-color: #309e0b ;
+    background: url("../images/pexels-skinny-alien-671805-2318555.jpg");
+    padding: 1%;
     width: 100%;
-    height: 50px;
-    position: static;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.header {
+    font-size: xx-large;
+    padding-left: 10%;
+    padding-top: 20px;
+    color: #ffffff;
 }
 
 main {
-    background-color: silver;
+    background-color: #ffffff;
     min-height: 100vh;
     flex: 1 0 auto;
 
@@ -34,7 +42,7 @@ footer {
 	background-color: #fc8eac;
 	padding: 1%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
 }
