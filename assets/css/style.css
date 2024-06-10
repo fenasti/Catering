@@ -21,6 +21,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 5;
 
 }
 
@@ -32,9 +33,17 @@ header {
 }
 
 main {
-    background-color: #ffffff;
-    min-height: 100vh;
+    
+    
+}
+
+main {
+    background: url("../images/background-image.jpg") center center/cover;
+    filter: grayscale(100%);
+    width: 100%;
+    position: relative;
     flex: 1 0 auto;
+    min-height: 100vh;
 
 }
 
