@@ -52,28 +52,29 @@ main {
     background: url("../images/background-image.jpg") center center/cover;
     filter: grayscale(100%);
     width: 100%;
+    min-height: 100vh;
     position: relative;
     flex: 1 0 auto;
-    min-height: 100vh;
     z-index: 1;
 }
 
 /*Opaque box*/
 
-#opacity {
+.opacity-box {
     background-color: rgba(0, 0, 0, 0.5);
     position: static;
     width: 60%;
     height: 40 rem;
     padding-left: 5%;
+    margin-bottom: 10px;
     top: 13 rem;
     z-index: 3;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
 main>section {
-    margin-top: 12rem;
+    margin-top: 10rem;
 }
 
 footer {
@@ -84,4 +85,20 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 5;
+}
+/*media-query*/
+
+@media screen and (min-width: 992px) {
+
+    main>section {
+        margin-top: 12rem;
+    }
+
+    .header {
+        font-size: x-large;
+    }
+
+    .opacity-box {
+        font-size: large;
+    }
 }
