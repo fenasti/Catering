@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     font-family: "Josefin Sans", sans-serif;
     color: #ffffff;
+    font-size: 60%;
 }
 
 header {
@@ -28,7 +29,7 @@ header {
 
 .header {
     font-size: large;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 20px;
     color: #ffffff;
 }
@@ -54,11 +55,25 @@ main {
     position: relative;
     flex: 1 0 auto;
     min-height: 100vh;
-    z-index: 0;
+    z-index: 1;
+}
+
+/*Opaque box*/
+
+#opacity {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: static;
+    width: 60%;
+    height: 40 rem;
+    padding-left: 5%;
+    top: 13 rem;
+    z-index: 3;
+    justify-content: center;
+
 }
 
 main>section {
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 
 footer {
