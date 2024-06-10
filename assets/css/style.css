@@ -81,12 +81,29 @@ footer {
 	background-color: #fc8eac;
 	padding: 0;
     width: 100%;
+    min-height: 6vh;
     position: absolute;
+    font-size: xx-large;
     bottom: 0;
     right: 0;
     z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
+
+footer>a {
+    text-decoration: none;
+}
+
 /*media-query*/
+
+@media screen and (max-width: 576px) {
+    .hidden {
+        display: none;
+    }
+}
 
 @media screen and (min-width: 992px) {
 
