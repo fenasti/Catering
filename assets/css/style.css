@@ -26,7 +26,7 @@ header {
 }
 
 .header {
-    font-size: xx-large;
+    font-size: large;
     padding-left: 10%;
     padding-top: 20px;
     color: #ffffff;
@@ -53,14 +53,16 @@ main {
     position: relative;
     flex: 1 0 auto;
     min-height: 100vh;
+    z-index: 0;
 
 }
 
 footer {
 	background-color: #fc8eac;
-	padding: 1%;
+	padding: 0;
     width: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
+    z-index: 5;
 }
