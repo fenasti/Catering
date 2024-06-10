@@ -99,7 +99,7 @@ footer>a {
 
 /*media-query*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 900px) {
     .hidden {
         display: none;
     }
