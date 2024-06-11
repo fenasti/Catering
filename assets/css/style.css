@@ -16,14 +16,16 @@ body {
     font-size: 60%;
 }
 
+main {
+    min-height: 100vh;
+}
 
 #main-background {
     background: url("../images/background-image.jpg") center center/cover;
-    filter: grayscale(100%);
+    filter: grayscale(80%);
     width: 100%;
     height: 100%;
-    position: fixed;
-    flex: 1 0 auto;
+    position: relative;
     z-index: 1;
 }
 
@@ -54,18 +56,26 @@ header {
 #nav-menu>a {
     text-decoration: none;
     font-weight: bold;
-    color: #fc8eab;
-    
+    color: #fc8eab;   
 }
 
+/*Main body element*/
 
 #main-info {
     justify-content: center;
     align-self: center;
 }
 
+#service-list {
+    list-style-type: none;
+}
+
+#service-list>li {
+    padding: .5em;
+}
+
 .font-aside {
-    font-size: 150%;
+    font-size: 200%;
 }
 
 /*Opaque box*/
@@ -73,24 +83,22 @@ header {
 .opacity-box {
     background-color: rgba(0, 0, 0, 0.5);
     position: static;
-    width: 55%;
-    height: 40 rem;
-    padding-left: .5rem;
-    margin: .5rem;
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
     top: 13 rem;
     z-index: 3;
     justify-content: space-around;
-    float: left;
     font-size: 150%;
+    text-align: center;
 }
 
 .aside {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 35%;
-    padding-left: .5rem;
-    margin: .5rem;
-    float: right;
-    text-align: justify;
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
+    text-align: left;
 }
 
 main>section {
@@ -102,7 +110,7 @@ footer {
 	padding: 0;
     width: 100%;
     min-height: 6vh;
-    position: absolute;
+    position: static;
     font-size: xx-large;
     bottom: 0;
     right: 0;
@@ -135,7 +143,27 @@ footer>a {
         font-size: x-large;
     }
 
-    .opacity-box {
-        font-size: large;
+    .aside {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 40%;
+        padding: 1%;
+        margin: 1%;
+        float: right;
+        text-align: left;
     }
+
+    .opacity-box {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: static;
+        width: 55%;
+        padding: 1%;
+        margin: 1%;
+        top: 13 rem;
+        z-index: 3;
+        justify-content: space-around;
+        float: left;
+        font-size: 220%;
+        text-align: center;
+    }
+    
 }
