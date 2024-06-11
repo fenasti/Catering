@@ -108,6 +108,20 @@ main>section {
     margin-top: 10rem;
 }
 
+table {
+    border: 1px solid silver;
+	padding: 5px;
+    width: 100%;
+}
+
+.table-margin {
+    margin: 1%;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+/*footer*/
+
 footer {
 	background-color: #fc8eac;
 	padding: 0;
@@ -169,4 +183,9 @@ footer>a {
         text-align: center;
     }
     
+    .table-margin {
+        margin-top: 3%;
+        margin-left: 20rem;
+    }
+
 }
