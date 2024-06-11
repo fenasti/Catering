@@ -61,7 +61,7 @@ header {
 
 /*Main body element*/
 
-#main-info {
+#mai n-info {
     justify-content: center;
     align-self: center;
 }
@@ -83,7 +83,7 @@ header {
 .opacity-box {
     background-color: rgba(0, 0, 0, 0.5);
     position: static;
-    width: 100%;
+    width: 96%;
     padding: 1%;
     margin: 1%;
     top: 13 rem;
@@ -95,7 +95,7 @@ header {
 
 .aside {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 96%;
     padding: 1%;
     margin: 1%;
     text-align: left;
