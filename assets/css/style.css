@@ -16,6 +16,17 @@ body {
     font-size: 60%;
 }
 
+
+#main-background {
+    background: url("../images/background-image.jpg") center center/cover;
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    flex: 1 0 auto;
+    z-index: 1;
+}
+
 header {
     background: url("../images/pexels-skinny-alien-671805-2318555.jpg");
     padding: 1%;
@@ -24,7 +35,6 @@ header {
     top: 0;
     right: 0;
     z-index: 5;
-
 }
 
 .header {
@@ -48,14 +58,14 @@ header {
     
 }
 
-main {
-    background: url("../images/background-image.jpg") center center/cover;
-    filter: grayscale(100%);
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-    flex: 1 0 auto;
-    z-index: 1;
+
+#main-info {
+    justify-content: center;
+    align-self: center;
+}
+
+.font-aside {
+    font-size: 150%;
 }
 
 /*Opaque box*/
@@ -63,14 +73,24 @@ main {
 .opacity-box {
     background-color: rgba(0, 0, 0, 0.5);
     position: static;
-    width: 60%;
+    width: 55%;
     height: 40 rem;
-    padding-left: 5%;
-    margin-bottom: 10px;
+    padding-left: .5rem;
+    margin: .5rem;
     top: 13 rem;
     z-index: 3;
     justify-content: space-around;
+    float: left;
+    font-size: 150%;
+}
 
+.aside {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 35%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: right;
+    text-align: justify;
 }
 
 main>section {
