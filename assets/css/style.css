@@ -59,6 +59,10 @@ header {
     color: #fc8eab;   
 }
 
+.active {
+    border-bottom: 2px solid #ffffff;
+} 
+
 /*Main body element*/
 
 #main-info>section {
@@ -117,6 +121,16 @@ table {
 .table-margin {
     margin: 1%;
     padding: 1%;
+    margin-top: 5%;
+}
+
+/*form*/
+
+#contact {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 96%;
+    padding: 30px;
+    margin: 1%;
     margin-top: 5%;
 }
 
