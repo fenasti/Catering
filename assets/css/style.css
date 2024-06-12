@@ -155,6 +155,25 @@ button {
     align-self: center;
     
 }
+
+/*Gallery*/
+
+#gallery {
+    margin-top: 20%;
+}
+
+#fotos img {
+    width: 100%;
+}
+
+#background-gallery {
+    background-color: rgb(103, 85, 85);
+}
+
+#gallery {
+    margin-top: 20%;
+}
+
 /*footer*/
 
 footer {
@@ -179,12 +198,20 @@ footer>a {
 
 /*media-query*/
 
+    
+@media screen and (min-width: 600px) {
+
+    #gallery {
+        margin-top: 10%;
+    }
+
+}
+
 @media screen and (max-width: 900px) {
     .hidden {
         display: none;
     }
 
-    
 }
 
 @media screen and (min-width: 992px) {
@@ -228,5 +255,12 @@ footer>a {
     .text-box {
         max-width: 400px;
      }
+
+     #fotos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    
 
 }
