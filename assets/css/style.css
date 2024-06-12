@@ -44,6 +44,14 @@ header {
     padding-left: 5%;
     padding-top: 20px;
     color: #ffffff;
+    display:flex;
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+    float: right;
+    align-self: flex-end;
 }
 
 #nav-menu {
@@ -205,6 +213,13 @@ footer>a {
         margin-top: 10%;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+
+    .hidden-logo {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 900px) {
