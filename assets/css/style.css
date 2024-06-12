@@ -165,6 +165,11 @@ button {
     
 }
 
+#section-title {
+    display: none;
+}
+
+
 /*Gallery*/
 
 #gallery {
@@ -178,10 +183,6 @@ button {
 
 #background-gallery {
     background-color: rgb(103, 85, 85);
-}
-
-.hidden {
-    display: none;
 }
 
 /*footer*/
