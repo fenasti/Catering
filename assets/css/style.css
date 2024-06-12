@@ -216,11 +216,6 @@ footer>a {
 
 }
 
-@media screen and (max-width: 600px) {
-
-    
-}
-
 @media screen and (max-width: 900px) {
     .hidden {
         display: none;
@@ -229,8 +224,6 @@ footer>a {
     .hidden-logo {
         display: none;
     }
-
-
 }
 
 @media screen and (min-width: 992px) {
@@ -279,7 +272,4 @@ footer>a {
         column-count: 2;
         column-gap: 0;
     }
-
-    
-
 }
