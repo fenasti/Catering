@@ -169,18 +169,15 @@ button {
 
 #gallery {
     margin-top: 20%;
+    width: 100%;
 }
 
-#fotos img {
+#gallery img {
     width: 100%;
 }
 
 #background-gallery {
     background-color: rgb(103, 85, 85);
-}
-
-#gallery {
-    margin-top: 20%;
 }
 
 /*footer*/
@@ -268,7 +265,7 @@ footer>a {
         max-width: 400px;
      }
 
-     #fotos {
+     #gallery {
         column-count: 2;
         column-gap: 0;
     }
