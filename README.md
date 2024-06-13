@@ -97,6 +97,10 @@ their eco-friendly aproach.
 
  Finally i figured it out by changing the value of the background and adding other to the footer.
 
+ ## Unsolved Bugs
+
+ I couldn't properly center the elements in the pages. There were always a tiny difference between the paddings from the left and right and wasn't able to fix it after long time trying.  
+
  ## Deployment
  
  The site was deployed to GitHub in the Deployment section, then in the Settings and the Pages section at the left.
@@ -131,6 +135,10 @@ Photo from Thallen Merlin: https://www.pexels.com/es-es/foto/juego-de-comedor-fi
 Photo from ELEVATE: https://www.pexels.com/es-es/foto/chef-preparando-plato-de-verduras-en-losa-de-arbol-1267320/
 
 Photo from Elle Hughes: https://www.pexels.com/es-es/foto/hombre-y-mujer-vistiendo-delantales-de-rayas-blanco-y-negro-2696064/
+
+- https://fontawesome.com/
+
+
 
 
 
