@@ -9,3 +9,5 @@ In the site you could find our services, a gallery with fotos of our latest even
 a form page where the client can contact the catering with concerns and event ideas. The main target are green based companys that look for an event planner who can mantain 
 their eco-friendly aproach.
 
+<img src="assets/readme/show.png">
+
