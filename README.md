@@ -58,7 +58,7 @@ their eco-friendly aproach.
 <img src="assets/readme/social-bar.png">
 <img src="assets/readme/social-bar2.png">
 
-### Testing
+## Testing
 
 - I tested this page in the main browsers (Chrome, Opera and Safari) and in mobil devices, it shows good reaction to different screen sizes.
 
@@ -66,9 +66,9 @@ their eco-friendly aproach.
 
 - I confirmed that the form page is responsive and post the information succesfully.
 
-### Validation
+## Validation
 
-#### HTML
+### HTML
 
 - I tested all 3 pages of html in the validator and besides some syntax errors that were easly solved it passed all of them.
 
@@ -78,18 +78,59 @@ their eco-friendly aproach.
 
 <img src="assets/readme/html-valid.png">
 
-#### CSS
+### CSS
 
  - I tested the CSS code in the validator and passed correctly after solving syntax errors.
 
  <img src="assets/readme/sinxt-erros.png">
  <img src="assets/readme/css-valid.png">
 
- ### Solve problems
+## Solve problems
 
- During the pages creation i had a problem because of the size of the background an its position wich didn`t allowed scrolling down and the footer didn't stayed at the bottom
+ During the pages creation i had a problem because of the size of the background an its position wich didn`t allowed scrolling down and the footer didn't stayed at the bottom.
 
- I contacted student
+ <img src="assets/readme/problems-solving.png">
+
+ I contacted student support and they helped me to figured it out by using the devtools and looking for the positions values.
+
+ <img src="assets/readme/problem-solving3.png">
+
+ Finally i figured it out by changing the value of the background and adding other to the footer.
+
+ ## Deployment
+ 
+ The site was deployed to GitHub in the Deployment section, then in the Settings and the Pages section at the left.
+ I selected the Main Branch, Root folder and save it, then automatically creates the deployer on top.
+
+ link: https://fenasti.github.io/Catering/index.html
+
+## Credit
+
+### Content
+
+- Love Running Project
+
+Whit reference on how to make a responsive gallery and syntax elements.
+
+- Coders Coffeehouse Project
+
+As a reference for a form.
+
+- Tutorial point https://www.tutorialspoint.com/how-to-change-the-color-of-an-image-to-black-and-white-using-css#:~:text=%22grayscale%22%20filter%20is%20a%20most,be%20fully%20black%20and%20white
+
+Showed me how to make an image element darker in the black and white scale.
+
+### Media
+
+- https://www.pexels.com/es-es/
+
+Photo from Mat Brown: https://www.pexels.com/es-es/foto/foto-cerrada-de-copas-de-vino-1395966/
+
+Photo from Thallen Merlin: https://www.pexels.com/es-es/foto/juego-de-comedor-fino-en-mesa-1580622/
+
+Photo from ELEVATE: https://www.pexels.com/es-es/foto/chef-preparando-plato-de-verduras-en-losa-de-arbol-1267320/
+
+Photo from Elle Hughes: https://www.pexels.com/es-es/foto/hombre-y-mujer-vistiendo-delantales-de-rayas-blanco-y-negro-2696064/
 
 
 
